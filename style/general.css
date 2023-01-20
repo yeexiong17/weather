@@ -1,0 +1,9 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background: url('../photo/bg1.jpg') no-repeat center fixed;
+    background-size: cover;
+    filter: brightness(90%);
+}

@@ -1,0 +1,19 @@
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+ion-icon {
+    --ionicon-stroke-width: 50px;
+    font-size: 23px;
+}
+
+.search {
+    flex: 1;
+}
+
+.search input {
+    flex: 1;
+    max-width: 30%;
+}
