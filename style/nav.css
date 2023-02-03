@@ -1,3 +1,18 @@
+.nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-head {
+    font-weight: 700;
+    font-size: 2vw;
+}
+
 input:focus,
 textarea:focus,
 select:focus {
@@ -10,10 +25,30 @@ ion-icon {
 }
 
 .search {
+    display: flex;
     flex: 1;
+    align-items: center;
+    margin-left: 4vw;
 }
 
 .search input {
     flex: 1;
     max-width: 30%;
+    border-radius: 12px;
+    padding: 4px;
+    padding-left: 10px;
+}
+
+.btn-search {
+    display: flex;
+    margin-left: 8px;
+}
+
+.menu {
+    margin-right: 8px;
+    padding: 4px;
+}
+
+.btn-menu {
+    display: flex;
 }

@@ -1,0 +1,99 @@
+.middle {
+    display: flex;
+    margin-top: 28vh;
+    justify-content: center;
+    gap: 10%;
+}
+
+.mid-container-left {
+    background-color: rgba(68, 68, 68, 0.501);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vw;
+    width: 30vw;
+    height: 100%;
+}
+
+.mid-1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-1-left img {
+    aspect-ratio: 1;
+    max-width: 5vw;
+}
+
+.mid-1-p {
+    margin-top: 10px;
+}
+
+.mid-1-p p {
+    color: rgba(255, 255, 255, 0.914);
+    font-size: 1.5vh;
+}
+
+.mid-2-left {
+    margin-left: 8%;
+}
+
+.date-time {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.mid-2-temp {
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.feel-temp {
+    color: white;
+    font-size: 1.3vw;
+}
+
+.weather-comment {
+    color: white;
+    font-size: 0.8vw;
+}
+
+.mid-container-right {
+    background-color: rgba(68, 68, 68, 0.501);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 1.5vw;
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-right-p {
+    margin-top: 2%;
+}
+
+.bold {
+    font-weight: 600;
+    color: white;
+}
+
+.mid-container-right .detail {
+    font-weight: bold;
+    font-size: 1.3vw;
+    color: rgba(255, 255, 255, 0.825);
+}
+
+.mid-right-p p {
+    color: rgba(255, 255, 255, 0.885);
+    margin-top: 5%;
+    font-size: 1vw;
+}
+
+.card-shade {
+    box-shadow: 0 15px 30px 3px rgba(0, 0, 0, 0.912);
+}

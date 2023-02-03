@@ -1,0 +1,53 @@
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.bottom-container p {
+    color: rgba(255, 255, 255, 0.845);
+}
+
+.bottom-1 p {
+    color: rgb(244, 226, 30);
+    margin-left: 9%;
+}
+
+.bottom-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8%;
+}
+
+.bottom-2 div {
+    width: 12vw;
+    padding-top: 1.8%;
+}
+
+.bottom-2 div:nth-child(1) {
+    border-top: 1px solid yellow;
+}
+
+.sm-text {
+    font-size: 0.9vw;
+}
+
+.min-max {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.condition {
+    margin-top: 2%;
+}
+
+.condition img {
+    aspect-ratio: 1/1;
+    width: 2.2vw;
+}
+
+.condition p {
+    margin-top: 5%;
+}
