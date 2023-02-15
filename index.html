@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style/general.css">
     <link rel="stylesheet" href="style/mid-content.css">
     <link rel="stylesheet" href="style/bottom-content.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -38,21 +38,20 @@
             <div class="mid-1-left">
                 <img src="photo/cloudy.png" alt="">
                 <div class="mid-1-p">
-                    <p>Sunrise 4:59</p>
-                    <p>Sunset: 20:47</p>
+                    <p class="sunrise"></p>
+                    <p class="sunset"></p>
                 </div>
             </div>
 
             <div class="mid-2-left">
                 <p class="date-time">
-                    Friday 27 July 15:00
+
                 </p>
                 <p class="text-yellow-300 mid-2-temp">
-                    +22&#8451;
+                    <span class="temperature"></span>&#8451;
                 </p>
-                <p class="feel-temp">Feels like 23&#176;</p>
+                <p class="feel-temp">Feels like <span class="feelTemp"></span>&#176;</p>
                 <p class="weather-comment">
-                    The whole day will be cloudy. No Precipitation.
                 </p>
             </div>
         </div>
