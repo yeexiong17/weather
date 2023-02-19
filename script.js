@@ -200,3 +200,17 @@ button.addEventListener('click', function myFunc() {
     input.value = "";
 });
 
+input.addEventListener('keypress', function myFunc() {
+
+    if (event.key === "Enter") {
+        let inputCountry = input.value;
+
+        if (inputCountry === "") {
+            alert("Please Enter A Country Or City!");
+        }
+
+        myFunction(inputCountry);
+
+        input.value = "";
+    }
+});
