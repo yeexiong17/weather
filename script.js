@@ -10,6 +10,7 @@ let precipitation = document.querySelector(".precipitate");
 let bottom = document.querySelector(".bottom-2");
 let button = document.querySelector(".btn-search");
 let input = document.querySelector(".input");
+let title = document.querySelector(".country");
 
 const Weather = () => {
 
@@ -36,7 +37,6 @@ const Weather = () => {
 
         const date = new Date();
         localTime = date.getTime();
-        console.log(localTime);
         localOffset = date.getTimezoneOffset() * 60000;
         utc = localTime + localOffset;
         var newTime = utc + (1000 * timezone);
@@ -62,6 +62,8 @@ const Weather = () => {
     // For displaying the data
     const displayData = (data) => {
         console.log(data);
+
+        title.textContent = `${data.name}, ${data.sys.country}`;
 
         tempText.textContent = data.main.temp;
         mid_icon.src = `photo/${data.weather[0].icon.replace(/n/g, "d")}.png`;
@@ -100,10 +102,8 @@ const Weather = () => {
 
             const date = new Date(data.list[i].dt * 1000);
             localTime = date.getTime();
-            localOffset = date.getTimezoneOffset() * 60000;
-            utc = localTime + localOffset;
-            var newTime = utc + (1000 * data.city.timezone);
-            nd = new Date(newTime);
+            console.log(`Unix Time: ${localTime}`);
+            nd = new Date(localTime);
 
             let dayElement = document.createElement('p');
             dayElement.setAttribute('class', 'bold');
@@ -151,6 +151,7 @@ const Weather = () => {
 };
 
 async function myFunction(input) {
+
     let href = `https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=5a452fdd557add2c1e840b9e72f07e6c`;
 
     let data = await weather.fetchWeather(href);
@@ -182,8 +183,6 @@ let interval1;
 let interval2;
 
 myFunction("Kuala Lumpur");
-
-
 
 button.addEventListener('click', function myFunc() {
     let inputCountry = input.value;
