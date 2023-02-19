@@ -154,7 +154,7 @@ async function myFunction(input) {
     let href = `https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=5a452fdd557add2c1e840b9e72f07e6c`;
 
     let data = await weather.fetchWeather(href);
-    weather.fetchFuture(`http://api.openweathermap.org/data/2.5/forecast?lat=${data.coord.lat}&lon=${data.coord.lon}&units=metric&appid=5a452fdd557add2c1e840b9e72f07e6c`);
+    weather.fetchFuture(`https://api.openweathermap.org/data/2.5/forecast?lat=${data.coord.lat}&lon=${data.coord.lon}&units=metric&appid=5a452fdd557add2c1e840b9e72f07e6c`);
 
     while (bottom.firstChild) {
         bottom.removeChild(bottom.firstChild);
@@ -169,7 +169,7 @@ async function myFunction(input) {
 
     interval2 = setInterval(async () => {
         let newData = await weather.fetchWeather(href);
-        weather.fetchFuture(`http://api.openweathermap.org/data/2.5/forecast?lat=${newData.coord.lat}&lon=${newData.coord.lon}&units=metric&appid=5a452fdd557add2c1e840b9e72f07e6c`);
+        weather.fetchFuture(`https://api.openweathermap.org/data/2.5/forecast?lat=${newData.coord.lat}&lon=${newData.coord.lon}&units=metric&appid=5a452fdd557add2c1e840b9e72f07e6c`);
         while (bottom.firstChild) {
             bottom.removeChild(bottom.firstChild);
         }
