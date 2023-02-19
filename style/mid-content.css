@@ -10,7 +10,7 @@
 
 .middle {
     display: flex;
-    margin-top: 5.5vh;
+    margin-top: 4vh;
     justify-content: center;
     gap: 10%;
 }
@@ -90,7 +90,7 @@
 .mid-container-right .detail {
     font-weight: bold;
     font-size: 1.2vw;
-    color: rgba(255, 255, 255, 0.825);
+    color: rgba(255, 255, 255, 0.896);
 }
 
 .mid-right-p p {
@@ -100,5 +100,5 @@
 }
 
 .card-shade {
-    box-shadow: 0 15px 30px 3px rgba(0, 0, 0, 0.912);
+    box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.912);
 }

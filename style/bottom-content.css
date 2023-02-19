@@ -2,22 +2,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 3%;
+    background-color: rgba(68, 68, 68, 0.501);
+    padding: 15px;
+    border-radius: 25px;
+    margin: 4% auto;
+    width: 70%;
 }
 
 .bottom-container p {
-    color: rgba(255, 255, 255, 0.845);
+    color: rgba(255, 255, 255, 0.911);
 }
 
 .bottom-1 p {
-    color: rgb(244, 226, 30);
-    margin-left: 5%;
+    color: rgb(251, 232, 30);
+    font-size: 1.15vw;
+    margin-left: 6.5%;
 }
 
 .bottom-2 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 0.8%;
 }
 
