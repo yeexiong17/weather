@@ -63,6 +63,10 @@ const Weather = () => {
     const displayData = (data) => {
         console.log(data);
 
+        if (data.message == "city not found") {
+            alert("Country/Region Not Found! Please Try Another");
+        }
+
         title.textContent = `${data.name}, ${data.sys.country}`;
 
         tempText.textContent = data.main.temp;
