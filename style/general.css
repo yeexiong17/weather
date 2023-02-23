@@ -3,6 +3,7 @@
 }
 
 html {
-    background: linear-gradient(0deg, #66a1b8 100%, #FFFFFF 100%);
+    background-image: url("../photo/bg1.jpg");
+    background-size: cover;
     filter: brightness(90%);
 }

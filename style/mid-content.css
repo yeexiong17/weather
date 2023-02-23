@@ -1,29 +1,36 @@
-.mid-title h2 {
+.mid-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 14vh;
+    margin-top: 20vh;
+    color: rgb(63, 63, 63);
+}
+
+.country {
     font-size: 2.5vw;
     font-weight: 600;
 }
 
 .middle {
     display: flex;
-    margin-top: 4vh;
+    margin-top: 10vh;
     justify-content: center;
     gap: 10%;
+    border-radius: 20px;
+    background-color: rgba(69, 76, 98, 0.501);
+    width: 45vw;
+    padding: 0px 8px;
 }
 
 .mid-container-left {
-    background-color: rgba(68, 68, 68, 0.501);
+    /* background-color: rgba(69, 76, 98, 0.501); */
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.35vw;
-    width: 32vw;
-    height: 100%;
+    width: auto;
 }
 
 .mid-1-left {
@@ -67,13 +74,12 @@
 }
 
 .mid-container-right {
-    background-color: rgba(68, 68, 68, 0.501);
+    /* background-color: rgba(69, 76, 98, 0.501); */
     border-radius: 15px;
     display: flex;
     align-items: center;
     padding: 1.1vw;
-    width: 20vw;
-    height: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
 }
@@ -97,8 +103,4 @@
     color: rgba(255, 255, 255, 0.885);
     margin-top: 5%;
     font-size: 1vw;
-}
-
-.card-shade {
-    box-shadow: 0 10px 25px 2px rgba(0, 0, 0, 0.912);
 }

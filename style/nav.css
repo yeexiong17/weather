@@ -6,6 +6,9 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    height: 10%;
+    background-color: #353535;
+    transition: top 0.5s;
 }
 
 .nav-head {
@@ -22,11 +25,13 @@ select:focus {
 ion-icon {
     --ionicon-stroke-width: 50px;
     font-size: 23px;
+    color: rgb(233, 233, 233);
 }
 
 .search {
     display: flex;
     flex: 1;
+    margin-right: auto;
     align-items: center;
     margin-left: 4vw;
 }
@@ -41,7 +46,7 @@ ion-icon {
 
 .btn-search {
     display: flex;
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .menu {
