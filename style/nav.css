@@ -14,48 +14,5 @@
 .nav-head {
     font-weight: 700;
     font-size: 1.7vw;
-}
-
-input:focus,
-textarea:focus,
-select:focus {
-    outline: none;
-}
-
-ion-icon {
-    --ionicon-stroke-width: 50px;
-    font-size: 23px;
-    color: rgb(233, 233, 233);
-}
-
-.search-2 {
-    display: none;
-}
-
-.search-1 {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    margin-left: 4vw;
-}
-
-.search-1 input {
-    width: 40%;
-    border-radius: 12px;
-    padding: 4px;
-    padding-left: 10px;
-}
-
-.btn-search {
-    display: flex;
-    margin-left: 10px;
-}
-
-.menu {
-    margin-right: 8px;
-    padding: 4px;
-}
-
-.btn-menu {
-    display: flex;
+    margin-right: auto;
 }

@@ -3,24 +3,64 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 18vh;
     color: rgb(50, 50, 50);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+ion-icon {
+    --ionicon-stroke-width: 50px;
+    font-size: 23px;
+    color: rgb(233, 233, 233);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 50vw;
+    border-radius: 12px;
+    padding: 4px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.btn-search {
+    display: flex;
+    margin-left: 10px;
+}
+
+.menu {
+    margin-right: 8px;
+    padding: 4px;
+}
+
+.btn-menu {
+    display: flex;
 }
 
 .country {
     font-size: 2.5vw;
     font-weight: 600;
+    margin-top: 6vh;
 }
 
 .middle {
     display: flex;
     margin-top: 10vh;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10%;
     border-radius: 20px;
     background-color: rgba(69, 76, 98, 0.501);
     width: 45vw;
-    padding: 0px 8px;
+    padding: 8px 8px;
 }
 
 .mid-container-left {

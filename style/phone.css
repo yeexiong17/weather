@@ -12,16 +12,12 @@
         font-size: 15px;
     }
 
-    .search-1 {
-        display: none;
-    }
-
-    .search-2 {
+    .search {
         display: flex;
         align-items: center;
     }
 
-    .search-2 input {
+    .search input {
         width: 80vw;
         border-radius: 10px;
         padding-left: 10px;
@@ -29,7 +25,7 @@
         font-size: 2.5vw;
     }
 
-    .search-2 input::placeholder {
+    .search input::placeholder {
         font-size: 2.5vw;
     }
 
@@ -55,10 +51,44 @@
 
     .middle {
         margin-top: 5vh;
-        gap: 20%;
         border-radius: 10px;
         background-color: rgba(69, 76, 98, 0.501);
-        width: 60vw;
-        padding: 0px 8px;
+        width: 70vw;
+        padding: 5px 8px;
+    }
+
+    .mid-container-left {
+        display: flex;
+        width: 55%;
+    }
+
+    .date-time {
+        font-size: 1.8vw;
+    }
+
+    .mid-2-temp {
+        font-size: 5vw;
+    }
+
+    .feel-temp {
+        font-size: 1.6vw;
+    }
+
+    .weather-comment {
+        font-size: 1.5vw;
+    }
+
+    .mid-container-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mid-container-right .detail {
+        font-size: 1.7vw;
+    }
+
+    .mid-right-p p {
+        margin-top: 8%;
+        font-size: 1.5vw;
     }
 }
