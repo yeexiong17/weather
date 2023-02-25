@@ -36,7 +36,7 @@
     }
 
     .country {
-        margin-top: 3vh;
+        margin-top: 4vh;
         font-size: 5.3vw;
     }
 
@@ -50,16 +50,19 @@
     }
 
     .middle {
-        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vh;
         border-radius: 10px;
-        background-color: rgba(69, 76, 98, 0.501);
         width: 75vw;
         padding: 5px 8px;
     }
 
     .mid-container-left {
         display: flex;
-        width: 55%;
+        width: 88%;
+        padding: 10px;
     }
 
     .mid-1-left img {
@@ -67,32 +70,33 @@
     }
 
     .date-time {
-        font-size: 2.4vw;
+        font-size: 3.3vw;
     }
 
     .mid-2-temp {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     .feel-temp {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .weather-comment {
-        font-size: 1.9vw;
+        font-size: 2.5vw;
     }
 
     .mid-container-right {
         display: flex;
         flex-direction: column;
+        margin-top: 3.5vh;
     }
 
     .mid-container-right .detail {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     .mid-right-p p {
         margin-top: 8%;
-        font-size: 1.9vw;
+        font-size: 3vw;
     }
 }

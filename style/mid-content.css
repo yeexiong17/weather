@@ -58,13 +58,12 @@ ion-icon {
     justify-content: space-evenly;
     gap: 10%;
     border-radius: 20px;
-    background-color: rgba(69, 76, 98, 0.501);
     width: 45vw;
     padding: 8px 8px;
 }
 
 .mid-container-left {
-    /* background-color: rgba(69, 76, 98, 0.501); */
+    background-color: rgba(69, 76, 98, 0.501);
     border-radius: 15px;
     display: flex;
     justify-content: center;
