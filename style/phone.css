@@ -22,11 +22,11 @@
         border-radius: 10px;
         padding-left: 10px;
         height: 30px;
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 
     .search input::placeholder {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     .nav-head {
@@ -61,12 +61,12 @@
 
     .mid-container-left {
         display: flex;
-        width: 88%;
+        width: 100%;
         padding: 10px;
     }
 
     .mid-1-left img {
-        max-width: 8vw;
+        max-width: 10vw;
     }
 
     .date-time {
