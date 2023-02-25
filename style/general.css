@@ -3,7 +3,6 @@
 }
 
 html {
-    background-image: url("../photo/bg1.jpg");
-    background-size: cover;
+    background: #6e769e;
     filter: brightness(90%);
 }
