@@ -38,7 +38,7 @@
 }
 
 .sm-text {
-    font-size: 0.9vw;
+    font-size: 1vw;
 }
 
 .min-max {
@@ -52,7 +52,12 @@
 
 .condition img {
     aspect-ratio: 1/1;
-    width: 2.2vw;
+    width: 2.5vw;
+}
+
+.bottomDay {
+    font-size: 1.5vw;
+    font-weight: 600;
 }
 
 .condition p {

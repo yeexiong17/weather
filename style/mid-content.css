@@ -58,7 +58,7 @@ ion-icon {
     justify-content: space-evenly;
     gap: 10%;
     border-radius: 20px;
-    width: 45vw;
+    width: 60vw;
     padding: 8px 8px;
 }
 
@@ -69,7 +69,7 @@ ion-icon {
     justify-content: center;
     align-items: center;
     padding: 1.35vw;
-    width: auto;
+    width: 35vw;
 }
 
 .mid-1-left {
