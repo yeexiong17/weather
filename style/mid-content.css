@@ -55,7 +55,7 @@ ion-icon {
 .middle {
     display: flex;
     margin-top: 10vh;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10%;
     border-radius: 20px;
     background-color: rgba(69, 76, 98, 0.501);

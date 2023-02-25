@@ -9,7 +9,7 @@
 
     ion-icon {
         --ionicon-stroke-width: 50px;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .search {
@@ -31,7 +31,7 @@
 
     .nav-head {
         font-weight: 700;
-        font-size: 3.5vw;
+        font-size: 3.8vw;
         margin-right: auto;
     }
 
@@ -53,7 +53,7 @@
         margin-top: 5vh;
         border-radius: 10px;
         background-color: rgba(69, 76, 98, 0.501);
-        width: 70vw;
+        width: 75vw;
         padding: 5px 8px;
     }
 
@@ -62,8 +62,12 @@
         width: 55%;
     }
 
+    .mid-1-left img {
+        max-width: 8vw;
+    }
+
     .date-time {
-        font-size: 1.8vw;
+        font-size: 2.4vw;
     }
 
     .mid-2-temp {
@@ -71,11 +75,11 @@
     }
 
     .feel-temp {
-        font-size: 1.6vw;
+        font-size: 2vw;
     }
 
     .weather-comment {
-        font-size: 1.5vw;
+        font-size: 1.9vw;
     }
 
     .mid-container-right {
@@ -84,11 +88,11 @@
     }
 
     .mid-container-right .detail {
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
 
     .mid-right-p p {
         margin-top: 8%;
-        font-size: 1.5vw;
+        font-size: 1.9vw;
     }
 }
