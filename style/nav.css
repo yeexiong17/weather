@@ -28,17 +28,19 @@ ion-icon {
     color: rgb(233, 233, 233);
 }
 
-.search {
+.search-2 {
+    display: none;
+}
+
+.search-1 {
     display: flex;
     flex: 1;
-    margin-right: auto;
     align-items: center;
     margin-left: 4vw;
 }
 
-.search input {
-    flex: 1;
-    max-width: 30%;
+.search-1 input {
+    width: 40%;
     border-radius: 12px;
     padding: 4px;
     padding-left: 10px;
