@@ -29,15 +29,13 @@
     justify-content: center;
 }
 
-.bottom-2 div {
+.divContainer {
+    display: flex;
+    flex-direction: column;
     width: 8vw;
     margin: auto;
     padding-top: 1.8%;
 }
-
-/* .bottom-2 div:nth-child(1) {
-    border-top: 3px solid yellow;
-} */
 
 .sm-text {
     font-size: 0.9vw;

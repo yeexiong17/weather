@@ -1,4 +1,4 @@
-@media (max-width: 384px) {
+@media (max-width: 480px) {
     .nav-bar {
         height: 8%;
     }
@@ -100,4 +100,45 @@
         margin-top: 8%;
         font-size: 4vw;
     }
+
+    .sm-text {
+        font-size: vw;
+    }
+
+    .bottom-container {
+        align-items: center;
+        margin-top: 5vh;
+        width: 85%;
+    }
+
+    .bottom-1 {
+        display: none;
+    }
+
+    .bottom-2 {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .divContainer {
+        width: 100%;
+        margin-bottom: 2vh;
+        padding-bottom: 3vh;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.647);
+    }
+
+    .bottomDay {
+        font-size: 6.5vw;
+        font-weight: 600;
+    }
+
+    .sm-text {
+        font-size: 4vw;
+    }
+
+    .condition img {
+        width: 10vw;
+    }
+
 }

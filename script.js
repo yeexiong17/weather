@@ -99,6 +99,7 @@ const Weather = () => {
             let max_span = document.createElement('span');
             let condition = document.createElement('div');
 
+            divContainer.setAttribute('class', 'divContainer');
             div1.setAttribute('class', 'min-max');
             min_span.setAttribute('class', 'bold');
             max_span.setAttribute('class', 'bold');
@@ -111,17 +112,12 @@ const Weather = () => {
 
             let dayElement = document.createElement('p');
             dayElement.setAttribute('class', 'bold');
+            dayElement.setAttribute('class', 'bottomDay');
             let dayForecast = day(nd.getUTCDay());
             console.log(dayForecast);
             dayElement.textContent = dayForecast;
             divContainer.appendChild(dayElement);
             bottom2.appendChild(divContainer);
-
-            let dateElement = document.createElement('p');
-            dateElement.setAttribute('class', 'sm-text');
-            let monthForecast = month(nd.getUTCMonth());
-            dateElement.textContent = `${nd.getUTCDate()} ${monthForecast}`;
-            divContainer.appendChild(dateElement);
 
             let minTemp = document.createElement('p');
             minTemp.setAttribute('class', 'sm-text');

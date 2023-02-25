@@ -9,6 +9,7 @@
     height: 10%;
     background-color: #353535;
     transition: top 0.5s;
+    z-index: 100;
 }
 
 .nav-head {
