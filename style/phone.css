@@ -9,7 +9,7 @@
 
     ion-icon {
         --ionicon-stroke-width: 50px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .search {
@@ -37,7 +37,7 @@
 
     .country {
         margin-top: 4vh;
-        font-size: 6.5vw;
+        font-size: 7vw;
     }
 
     .mid-title {
