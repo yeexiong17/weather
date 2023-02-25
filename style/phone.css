@@ -21,23 +21,23 @@
         width: 80vw;
         border-radius: 10px;
         padding-left: 10px;
-        height: 30px;
-        font-size: 4vw;
+        height: 35px;
+        font-size: 4.5vw;
     }
 
     .search input::placeholder {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     .nav-head {
         font-weight: 700;
-        font-size: 3.8vw;
+        font-size: 4.5vw;
         margin-right: auto;
     }
 
     .country {
         margin-top: 4vh;
-        font-size: 5.3vw;
+        font-size: 6.5vw;
     }
 
     .mid-title {
@@ -46,6 +46,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 12vh;
+        width: 100%;
         color: rgb(50, 50, 50);
     }
 
@@ -55,48 +56,48 @@
         align-items: center;
         margin-top: 4vh;
         border-radius: 10px;
-        width: 75vw;
+        width: 100%;
         padding: 5px 8px;
     }
 
     .mid-container-left {
         display: flex;
-        width: 100%;
-        padding: 10px;
+        width: 85%;
+        padding: 12px;
     }
 
     .mid-1-left img {
-        max-width: 10vw;
+        max-width: 14vw;
     }
 
     .date-time {
-        font-size: 3.3vw;
+        font-size: 4vw;
     }
 
     .mid-2-temp {
-        font-size: 7vw;
+        font-size: 7.5vw;
     }
 
     .feel-temp {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .weather-comment {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     .mid-container-right {
         display: flex;
         flex-direction: column;
-        margin-top: 3.5vh;
+        margin-top: 6vh;
     }
 
     .mid-container-right .detail {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     .mid-right-p p {
         margin-top: 8%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
